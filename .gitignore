@@ -39,3 +39,14 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Sensitive Configs (Double safety)
+src/data/config/firebase.config.ts
+src/services/GoogleVisionService.ts
